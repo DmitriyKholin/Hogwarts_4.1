@@ -23,6 +23,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 class StudentServiceTest {
     @Mock
     private StudentRepository repositoryMock;
+
     private StudentService out;
     private final Student student1 = new Student(0L, "test", 99);
 

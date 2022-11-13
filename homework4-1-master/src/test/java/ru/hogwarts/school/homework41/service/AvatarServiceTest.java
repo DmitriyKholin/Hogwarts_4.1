@@ -19,6 +19,7 @@ import java.util.Optional;
 class AvatarServiceTest {
     @Mock
     private AvatarRepository repositoryMock;
+
     private AvatarService out;
     private StudentService outStudent;
     private final byte[] arg = new byte[1024];

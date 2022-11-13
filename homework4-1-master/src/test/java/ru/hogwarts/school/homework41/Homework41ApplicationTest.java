@@ -32,6 +32,7 @@ class Homework41ApplicationTest {
     @MockBean
     private FacultyRepository facultyRepository;
 
+
     @SpyBean
     private FacultyService facultyService;
 
